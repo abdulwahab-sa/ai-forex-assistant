@@ -1,0 +1,50 @@
+# Ignore Python cache and compiled files
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/**/*$py.class
+
+# Ignore virtual environments
+backend/venv/
+backend/env/
+backend/forexai-env/
+backend/.forexai-env*/
+
+# Ignore environment/config files
+backend/.env
+backend/.env.*
+
+# VS Code config
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Logs
+backend/*.log
+
+# API keys / secrets
+backend/secrets.json
+backend/config.json
+
+# Data and cache
+backend/.cache/
+backend/**/*.sqlite3
+backend/**/*.db
+backend/**/*.csv
+backend/**/*.h5
+
+# Jupyter Notebook stuff (if any)
+backend/.ipynb_checkpoints/
+
+# Misc temp files
+backend/**/*.bak
+backend/**/*.tmp
+
+# FastAPI/uvicorn instance or runtime folders
+backend/instance/
